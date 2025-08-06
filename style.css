@@ -71,6 +71,7 @@ header{
         font-weight: 600;
         text-shadow: black 1px 1px 2px;
         border-radius: 45deg;
+        width: 100%;
     }
     frame{
         border-radius: 10px;
