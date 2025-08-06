@@ -73,6 +73,7 @@ header{
         border-radius: 45deg;
         min-width: 50vw;
         min-height: 100vh;
+        height: 100%;
     }
     iframe{
        
@@ -82,5 +83,17 @@ header{
         border-color: rgba(0, 0, 0, 0.44);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         background-color: var(--color02);
-        width: 80%;
+        width: 100%;
+    }
+    .emoji li ::before{
+        display: inline-block;
+        margin: 0 10px;
+        padding: 10px;
+        text-align: center;
+        content: "💬";
+    }
+    .emoji{
+        list-style: none;
+        padding: 0;
+        justify-content: center;
     }
